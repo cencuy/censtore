@@ -229,6 +229,8 @@ nav ul li a:hover
  .pesan img
  {
     width: 35px;
+    margin: 0%;
+    
  }
  .titel-o
  {
@@ -236,12 +238,7 @@ nav ul li a:hover
     margin-right: 5px; 
     font-size: 13pt;
  }
- .titel-k 
-{
-    font-size: 15pt;
-    color:var(--white);
-    margin:40%
-}
+ 
 .titel-w
 {
     font-size: 12pt;
@@ -332,7 +329,6 @@ html
         font-size: 16pt;
         margin-bottom: 2%;
     }
-
     .sosmed
     {
         font-size: 8pt;
@@ -340,7 +336,8 @@ html
     }
     .sosmed img
     {
-        margin-top: 2%;
+        margin: 0%;
+        margin-top: 3%;
         width: 30%;
         padding-left: 3rem;
     }
@@ -351,10 +348,15 @@ html
     .pesan
 {
    padding: 3%;
-   border-radius: 5px;
+   border-radius: 5px;;
+}
+.pesan img
+{
+    width: 20px;
+    margin: 0%;
 }
 .popup
 {
-    width: 60%;
+    width: 50%;
 }
 }
